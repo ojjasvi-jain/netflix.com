@@ -1,6 +1,6 @@
 # netflix.com
 
-Using folowing apis
+Using following apis
 
 For movies data 
 https://developers.themoviedb.org/3/getting-started/introduction
