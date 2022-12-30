@@ -64,11 +64,6 @@ body {
   margin-right: 20px;
 }
 
-@media screen and (max-width: 800px) {
-  .nav__item {
-    display: none;
-  }
-}
 /* ----------------------------------- -------------------- */
 .movie_header {
   color: #ffffff;
@@ -199,3 +194,25 @@ body {
   transform: translate(-50%, -50%);
   z-index: 100;
 }
+
+@media screen and (max-width: 800px) {
+  .nav__item {
+    display: none;
+  }
+
+  .banner__header {
+    font-size: 50px;
+    line-height: 1.1;
+    margin: 0;
+    margin-bottom: 16px;
+    max-width: 40%;
+  }
+  .banner__buttonWrapper {
+    display: none;
+  }
+
+  .banner__description {
+    display: none;
+  }
+}
+
